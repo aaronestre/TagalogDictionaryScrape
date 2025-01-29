@@ -5,6 +5,7 @@ A Python web scraper that extracts Tagalog-to-English dictionary data from [taga
 ---
 
 ## Technologies Used
+- **Main Language:** Jupyter Notebook and Python 3.12.8
 - **Web Scraping:** BeautifulSoup4  
 - **Data Extraction:** Regular Expressions (Regex)  
 - **Data Storage & Manipulation:** Pandas  
