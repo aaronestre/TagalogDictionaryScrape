@@ -17,6 +17,8 @@ This project scrapes the [Tagalog Pinoy Dictionary](https://tagalog.pinoydiction
 - **Regex** parses and formats the extracted text.  
 - **Pandas** stores and organizes the data for further analysis.  
 
+I wanted to create my own dicitionary of Tagalog vocabulary words in order to use for my other project, **Tagalong**. With this data, I can update a database with the words so that I can then make flashcards to learn from.
+
 ---
 
 ### Example Output
@@ -28,8 +30,8 @@ After running the script the resulting DataFrame will look like this:
 | mabilis           |   adjective    | fast       |
 
 ---
-### Future Improvements
 
+### Future Improvements
 - [ ] Implement **multi-threading** for faster scraping.
 - [ ] Add **error handling** for missing or malformed data.
 - [ ] Store data in a **database** (Firebase) instead of CSV.
