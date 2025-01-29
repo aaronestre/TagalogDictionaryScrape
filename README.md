@@ -1,11 +1,35 @@
 # Tagalog Dictionary Scrape
 
-A Tagalog to English Dictionary that was scraped from tagalog.pinoydictionary.com
+A Python web scraper that extracts Tagalog-to-English dictionary data from [tagalog.pinoydictionary.com](https://tagalog.pinoydictionary.com) and stores it in a structured Pandas DataFrame.
 
-### Technologies
-- **Web Scraping:** BeautifulSoup4
-- **Data Searching:** Regex
-- **Data Storage:** Pandas
+---
+
+## Technologies Used
+- **Web Scraping:** BeautifulSoup4  
+- **Data Extraction:** Regular Expressions (Regex)  
+- **Data Storage & Manipulation:** Pandas  
+
+---
 
 ### Introduction
-This project aims to scrape tagalog.pinoydictionary.com for the Tagalog to English dictionary. The technologies used were BeautifulSoup4 for scraping, Regex for searching the scrape, and Pandas for storing the data in a dataframe. 
+This project scrapes the [Tagalog Pinoy Dictionary](https://tagalog.pinoydictionary.com) and compiles a structured dataset of **Tagalog words, their parts of speech, and English definitions**.  
+- **BeautifulSoup4** extracts words and definitions from the website.  
+- **Regex** parses and formats the extracted text.  
+- **Pandas** stores and organizes the data for further analysis.  
+
+---
+
+### Example Output
+After running the script the resulting DataFrame will look like this:
+| Tagalog           | Part of Speech | Definition |
+| :---------------- | :------------: | ---------: |
+| Bahay             |   noun         | house      |
+| Takbo             |   verb         | run        |
+| mabilis           |   adjective    | fast       |
+
+---
+### Future Improvements
+
+- [ ] Implement **multi-threading** for faster scraping.
+- [ ] Add **error handling** for missing or malformed data.
+- [ ] Store data in a **database** (Firebase) instead of CSV.
