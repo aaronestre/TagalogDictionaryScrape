@@ -20,6 +20,8 @@ This project scrapes the [Tagalog Pinoy Dictionary](https://tagalog.pinoydiction
 
 I wanted to create my own dicitionary of Tagalog vocabulary words in order to use for my other project, **Tagalong**. With this data, I can update a database with the words so that I can then make flashcards to learn from.
 
+As of 1/29/2025, [Tagalog Pinoy Dictionary](https://tagalog.pinoydictionary.com) is down and unable to be scraped.
+
 ---
 
 ### Example Output
