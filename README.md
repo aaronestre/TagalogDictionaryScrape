@@ -37,4 +37,4 @@ After running the script the resulting DataFrame will look like this:
 ### Future Improvements
 - [ ] Implement **multi-threading** for faster scraping.
 - [ ] Add **error handling** for missing or malformed data.
-- [ ] Store data in a **database** (Firebase) instead of CSV.
+- [x] Store data in a **database** (Supabase) instead of CSV.
